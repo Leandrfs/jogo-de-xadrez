@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Jogo de Xadrez</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+         <a href="https://www.chess.com/pt-BR" target="_blank">Xadrex</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    <h1>Jogo ✖ Xadrex </h1>
+    <div class="player-top">
+      <i class="fas fa-user"></i> <!-- Ícone do jogador 1 -->
+    </div>
+  <div id="board" class="board">
+  </div>
+  
+  <div class="player-bottom">
+    <i class="fas fa-user"></i> <!-- Ícone do jogador 2 -->
+  </div>
+  <div class="button-container">
+    <button id="resetButton">Reiniciar Jogo</button> <!-- Botão de reinício -->
+  </div>
+  
+  <audio id="moveSound">
+    <source src="./soudes/movimento.mp3" type="audio/mpeg">
+    <!-- Adicione mais <source> tags para diferentes formatos de áudio -->
+  </audio>
+  
+  <audio id="captureSound">
+    <source src="./soudes/capitura.mp3" type="audio/mpeg">
+  </audio>
+  
+  <footer>
+    <div class="footer-content">
+      <div class="social-icons">
+        <a href="https://www.instagram.com/leandrodefreitass" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/Leandrfs" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/leandro-freitas-7b788b6a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p>&copy; 2023 Leandro Freitas Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+</html>
